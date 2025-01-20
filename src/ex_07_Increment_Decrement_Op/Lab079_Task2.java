@@ -4,6 +4,8 @@ public class Lab079_Task2 {
 
     public static void main(String[] args) {
       //int n=Integer.parseInt(args[0])  ;
+        ///String s=args[0];
+        //int n= Integer.parseInt(s);
 
         int n = Integer.parseInt(args[0]);
         // System.out.printf("9 x 1 = %d\n",number*1);
