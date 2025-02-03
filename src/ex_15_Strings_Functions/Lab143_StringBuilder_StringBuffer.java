@@ -28,5 +28,30 @@ public class Lab143_StringBuilder_StringBuffer {
         System.out.println(s3); // Output: Hello World!
         System.out.println(s1);
 
+        String name = "sonal";
+        name = "patel";
+        name = "sonalpatel";
+        name = "sonal"; // SCP
+        System.out.println(name);
+
+        String s8 = "Sonalpatel";
+        System.out.println(s8.lastIndexOf("a"));
+
+        String s9 = "Sonalpatel";
+        System.out.println(s9.replace("a","x"));
+        System.out.println(s9.replaceAll("a","z"));
+
+        String original = "banana";
+        String result1 = original.replace('a', 'o');
+        System.out.println(result1);
+
+        String original1 = "Hello123 World456!";
+        String result2 = original1.replaceAll("\\d+", "-");
+        System.out.println(result2);
+
+
+        String result3 = original1.replaceAll("o", "O");
+        System.out.println(result3);
+
     }
 }
