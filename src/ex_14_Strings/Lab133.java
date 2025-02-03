@@ -9,7 +9,7 @@ public class Lab133 {
 
 
         String c1="Chai";
-       c1= c1.concat("Chaiaaa");
+        c1.concat("Chaiaaa");
         System.out.println(c1);
 
         String c2="tree";

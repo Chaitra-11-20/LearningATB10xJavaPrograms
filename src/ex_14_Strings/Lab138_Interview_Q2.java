@@ -1,10 +1,13 @@
 package ex_14_Strings;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Lab138_Interview_Q2 {
     public static void main(String[] args) {
 
         String s1 = "Hello"; // SCP = 1
         String s4 = "Hello"; // 1
+        String s6="Chai";
 
         String s2 = new String("Hello"); // OA
         String s3 = new String("Hello");
@@ -12,12 +15,15 @@ public class Lab138_Interview_Q2 {
 
 
         // == ?  Comparsion -> Strings -> This check the locations ref.
-//        System.out.println(s1 == s3); false
-  //      System.out.println(s1 == s2); //false
-   //    System.out.println(s2 == s3);//false
+  System.out.println(s1 == s3); //false
+     System.out.println(s1 == s2); //false
+   System.out.println(s2 == s3);//false
 
- //       System.out.println(s1 == s4);
-  // System.out.println(s3 == s5);
+  System.out.println(s1 == s4); //true
+   System.out.println(s3 == s5);//false
+        System.out.println(s6==s4);//false
+
+        System.out.println("=============");
 
 
 // // equals ( content) -> value
